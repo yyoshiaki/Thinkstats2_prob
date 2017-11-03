@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def Mode(hist):
     d_hist = hist.d
     ser_hist = pd.Series([v for v in d_hist.values()])
